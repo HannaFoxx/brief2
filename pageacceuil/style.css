@@ -111,7 +111,7 @@ p {
 .box2{
     background-color: rgba(255, 255, 255, 0.788);
     box-sizing: border-box;
-    padding-top: 50px;
+    padding: 50px;
     display: flex;
     flex: 0 0 auto;
     border: 10px solid #00000000;
