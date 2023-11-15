@@ -1,0 +1,134 @@
+body{
+    background-image: url(../Image/novelai_sakura_trees_sunset_4k_wallpaper_by_darkprncsai_dfgj6jv-fullview.jpg);
+    background-size: cover;
+    font-family: inter, sans-serif;
+    background-repeat: no-repeat;
+    width: 100%;
+    box-sizing: 500%;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+header {
+    background-color: #ffffff91;  
+    padding: 0px;
+    text-align: center;
+    height: 180px;
+    padding-left: 0vh;
+    padding-right: 0vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    margin: 0;
+}
+h2{
+    font-size: 23px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+    letter-spacing: 2px;
+}
+/* Effets d'écriture */
+.fancy-text {
+    position: relative;
+}
+
+.fancy-text::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #3e299c, transparent);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: skewX(-10deg);
+    transform-origin: bottom right;
+}
+.fancy-text h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 28px;
+    background-color: #ffffff;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+}
+.logo{
+    display: flex;
+    max-width: 140px;
+    margin: 0 auto;
+    margin-top: 0px;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+}
+.container1 {
+    max-width: 900px;
+    height: 1000px;
+    margin: 5px auto;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+    position: relative;
+    text-align: center; /* Centrer le contenu horizontalement */
+    
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 10px solid #e67878;
+}
+.box1{
+    background-color: rgba(255, 255, 255, 0.788);
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    border: 1px solid #ffffff;
+    margin-right: 10px; /* Ajouter de l'espace entre les cartes de jeu */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
+    width: 880px; /* Largeur des cartes de jeu */
+    height: 180px; /* Hauteur des cartes de jeu */
+}
+.box2{
+    background-color: rgba(255, 255, 255, 0.788);
+    box-sizing: border-box;
+    padding-top: 50px;
+    display: flex;
+    flex: 0 0 auto;
+    border: 10px solid #00000000;
+    margin-right: 50px; /* Ajouter de l'espace entre les cartes de jeu */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
+    width: 880px; /* Largeur des cartes de jeu */
+    height: 580px; /* Hauteur des cartes de jeu */
+}
+.box2:hover{
+    transform: scale(1.05);
+}
+.box1:hover{
+    transform: scale(1.05);
+}
+.carousel1, .carousel2{
+    background-color: rgba(255, 255, 255, 0.74);
+}
